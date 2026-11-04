@@ -1,5 +1,15 @@
 # sd-webui-prompt-all-in-one
 
+> **本分支说明**：本仓库为个人修改分支 `neo-patch`，基于上游 `266fdaf`（2026-11-04），仅包含以下修复，其余功能与上游一致。全部改动由 **DEEPSEEK** 完成。
+>
+> | 修复 | 内容 |
+> | --- | --- |
+> | 权重还原 | 权重调回 1 时不再残留 `(tag:1)`，自动还原为 `tag` |
+> | 权重配色 | 括号、冒号、权重数字由红/绿改为跟随文字颜色（深色主题下为白色，不再刺眼） |
+> | 背景保留 | 加权后关键词的分组背景色（如 `1girl` 的橙色）不再丢失 |
+>
+> 涉及文件：`javascript/main.entry.js`、`styles/main.min.css`
+
 [![GitHub stars](https://img.shields.io/github/stars/Physton/sd-webui-prompt-all-in-one?style=flat-square)](https://github.com/Physton/sd-webui-prompt-all-in-one/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Physton/sd-webui-prompt-all-in-one?style=flat-square)](https://github.com/Physton/sd-webui-prompt-all-in-one/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Physton/sd-webui-prompt-all-in-one?style=flat-square)](https://github.com/Physton/sd-webui-prompt-all-in-one/issues)

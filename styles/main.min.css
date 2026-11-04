@@ -592,3 +592,8 @@
 .physton-gradio-container.dark .physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .btn-tag-extend{background:#0c0c0c}
 .physton-gradio-container.dark .physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .btn-tag-extend .input-number .vue-number-input__button:after,.physton-gradio-container.dark .physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .btn-tag-extend .input-number .vue-number-input__button:before{background-color:#fff!important}
 .display-none{display:none}
+/* pai patch: weight chars follow text color */
+.physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .weight-character,
+.physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .weight-number-character,
+.physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .dec-weight-character,
+.physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .dec-weight-number-character{color:inherit}
