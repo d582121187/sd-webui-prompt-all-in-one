@@ -596,4 +596,7 @@
 .physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .weight-character,
 .physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .weight-number-character,
 .physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .dec-weight-character,
-.physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .dec-weight-number-character{color:inherit}
+.physton-prompt .prompt-tags .prompt-tags-list .prompt-tag .prompt-tag-main .prompt-tag-edit .prompt-tag-value .dec-weight-number-character{color:var(--pai-weight-color)}
+
+/* pai patch: weight color, edit --pai-weight-color to change */
+.physton-prompt{--pai-weight-color:#ff8a8a}
